@@ -1,0 +1,60 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,400;1,900&display=swap');
+ 
+ :root {
+  --red: #d01c28;
+  --gray: #2e2e2e;
+}
+* {
+  margin: 0;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+.login {
+  color: white;
+  font-weight: 500;
+  height: 40px;
+  width: 80px;
+
+}
+
+.hero {
+  height:  calc(100vh - 72px);
+  align-items: center;
+}
+.hero h1 {
+  font-weight: 1000;
+  line-height: 90px;
+  font-size: 90px;
+  width: 500px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-weight: 600;
+  color: var(--gray);
+  max-width: 400px;
+  margin-bottom: 20px;
+  
+}
+.hero-btn {
+  display: flex;
+  gap: 40px;
+}
+.hero-btn button {
+  font-size: 24px;
+}
+.secondary-btn {
+  background: transparent;
+  color: var(--gray);
+  border: 1px solid gray;
+  margin-bottom: 20px;
+
+}
+.primary-btn {
+  background: var(--red);
+  text-align: center;
+  margin-bottom: 20px;
+}
